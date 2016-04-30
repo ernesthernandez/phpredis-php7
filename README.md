@@ -8,14 +8,14 @@ Currently most of the PHP extension module on the official website of PHP PECL d
 2. Open the php.ini configuration file, and add: `extension=php_redis.dll`
 3. Restart server
 4. Check if redis extension is loaded with phpinfo();
-![](img/phpinfo.png "Redis Loaded")
+![](phpinfo.png "Redis Loaded")
 
 ##Errors
-if you get: `Uncaught exception 'RedisException' with message 'Redis server went away'`
--Make sure you 
--Disable firewall on port 6379.
+### if you get: `Uncaught exception 'RedisException' with message 'Redis server went away'`
+- Make sure you 
+- Disable firewall on port 6379.
 
--Install lastest version of redis: https://github.com/MSOpenTech/redis/releases
+- Install lastest version of redis: https://github.com/MSOpenTech/redis/releases
 
 ##Demo
 ```bash

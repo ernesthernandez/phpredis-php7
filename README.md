@@ -8,3 +8,14 @@ Currently most of the PHP extension module on the official website of PHP PECL d
 2. Open the php.ini configuration file, and add: `extension=php_redis.dll`
 3. Restart server
 4. Check if redis extension is loaded with phpinfo()
+
+##Demo
+```bash
+$redis = new Redis();
+
+$isSuccess = $redis->connect('127.0.0.1', 6379);
+
+$redis -> set('foo', 'bar');
+
+echo $redis -> get('foo'); // hanzichi
+```

@@ -11,10 +11,8 @@ Currently most of the PHP extension module on the official website of PHP PECL d
 ![](phpinfo.png "Redis Loaded")
 
 ##Errors
-### if you get: `Uncaught exception 'RedisException' with message 'Redis server went away'`
-- Make sure you 
-- Disable firewall on port 6379.
-
+ If you get: `Uncaught exception 'RedisException' with message 'Redis server went away'`
+- Make sure you have disabled your firewall on port 6379.
 - Install lastest version of redis: https://github.com/MSOpenTech/redis/releases
 
 ##Demo

@@ -17,5 +17,5 @@ $isSuccess = $redis->connect('127.0.0.1', 6379);
 
 $redis -> set('foo', 'bar');
 
-echo $redis -> get('foo'); // hanzichi
+echo $redis -> get('foo'); // foo
 ```
